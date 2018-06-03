@@ -26,7 +26,9 @@ There are 4 test suites with 7 specs / tests in total:
 4) New Feed Selection
   - Test that ensures when a new feed is loaded by the loadFeed function that the content actually changes.
 
+<br>
 To run only one test, click one of the specs on the list. After that, you can click "run all" link to run all of these tests together.
 
 Green = Pass
+<br>
 Red = Fail
