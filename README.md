@@ -20,7 +20,6 @@ Green = Pass
 Red = Fail
 
 <br>
-<br>
 
 There are 4 test suites with 7 specs / tests in total:
 1) RSS Feeds
