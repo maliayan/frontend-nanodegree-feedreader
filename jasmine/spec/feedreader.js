@@ -60,8 +60,8 @@ $(function() {
          * the CSS to determine how we're performing the
          * hiding/showing of the menu element.
          */
-         it("the menu is hidden by default", function() {
-           expect(document.body.classList.contains("menu-hidden")).toBe(true);
+         it('the menu is hidden by default', function() {
+           expect(document.body.classList.contains('menu-hidden')).toBe(true);
          });
 
          /* TODO: Write a test that ensures the menu changes
@@ -69,11 +69,11 @@ $(function() {
           * should have two expectations: does the menu display when
           * clicked and does it hide when clicked again.
           */
-          it("menu changes visibility when the menu icon is clicked", function() {
-            document.querySelector(".menu-icon-link").click();
-            expect(document.body.classList.contains("menu-hidden")).toBe(false);
-            document.querySelector(".menu-icon-link").click();
-            expect(document.body.classList.contains("menu-hidden")).toBe(true);
+          it('menu changes visibility when the menu icon is clicked', function() {
+            document.querySelector('.menu-icon-link').click();
+            expect(document.body.classList.contains('menu-hidden')).toBe(false);
+            document.querySelector('.menu-icon-link').click();
+            expect(document.body.classList.contains('menu-hidden')).toBe(true);
           });
     });
 
@@ -94,5 +94,5 @@ $(function() {
          * Remember, loadFeed() is asynchronous.
          */
   });
-  
+
 }());
