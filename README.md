@@ -1,6 +1,6 @@
 # Project information
 
-This is my submission for a project of "Google Front End Nanodegree Program" at Udacity and it is called "Feed Reader Testing".
+This is my submission for a project of "Google Front-End Nanodegree Program" at Udacity and it is called "Feed Reader Testing".
 
 In this project a web-based application that reads RSS feeds is given. Also, it includes [Jasmine](http://jasmine.github.io/) and the first test suite.
 
@@ -15,11 +15,16 @@ The specs on this list are written at the feedreader.js file as test suites.
 
 There are 4 test suites with 7 specs / tests in total:
 1) RSS Feeds
+  <br>
   a) Test to make sure that the allFeeds variable has been defined and that it is not empty (this test is given by default).
+  <br>
   b) Test that loops through each feed in the allFeeds object and ensures it has a URL defined and that the URL is not empty.
+  <br>
   c) Test that loops through each feed in the allFeeds object and ensures it has a name defined and that the name is not empty.
 2) The Menu
+  <br>
   a) Test that ensures the menu element is hidden by default.
+  <br>
   b) Test that ensures the menu changes visibility when the menu icon is clicked.
 3) Initial Entries
   a) Test that ensures when the loadFeed function is called and completes its work, there is at least a single .entry element within the .feed container.
