@@ -16,5 +16,5 @@ The specs on this list are written at the feedreader.js file as test suites.
 There are 4 test suites with some specs:
 1) RSS Feeds
 2) The Menu
-3) Initial entries
+3) Initial Entries
 4) New Feed Selection
