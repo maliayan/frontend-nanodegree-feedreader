@@ -12,7 +12,10 @@ I complete the project with adding additional test suites which are given as a l
 You can clone this repository or download the .zip file to your computer. Then, click on the index.html file to see the RSS feeds and also [Jasmine](http://jasmine.github.io/) results which are at the bottom of the page.
 
 The specs on this list are written at the feedreader.js file as test suites.
+
 <br>
+<br>
+
 There are 4 test suites with 7 specs / tests in total:
 1) RSS Feeds
   - Test to make sure that the allFeeds variable has been defined and that it is not empty (this test is given by default).
@@ -28,6 +31,7 @@ There are 4 test suites with 7 specs / tests in total:
 
 <br>
 To run only one test, click one of the specs on the list. After that, you can click "run all" link to run all of these tests together.
+
 <br>
 Green = Pass
 <br>
