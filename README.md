@@ -13,6 +13,12 @@ You can clone this repository or download the .zip file to your computer. Then, 
 
 The specs on this list are written at the feedreader.js file as test suites.
 
+To run only one test, click one of the specs on the list. After that, you can click "run all" link to run all of these tests together.
+
+Green = Pass
+<br>
+Red = Fail
+
 <br>
 <br>
 
@@ -28,11 +34,3 @@ There are 4 test suites with 7 specs / tests in total:
   - Test that ensures when the loadFeed function is called and completes its work, there is at least a single .entry element within the .feed container.
 4) New Feed Selection
   - Test that ensures when a new feed is loaded by the loadFeed function that the content actually changes.
-
-<br>
-To run only one test, click one of the specs on the list. After that, you can click "run all" link to run all of these tests together.
-
-<br>
-Green = Pass
-<br>
-Red = Fail
